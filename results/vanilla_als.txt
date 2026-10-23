@@ -1,0 +1,2 @@
+  RMSE: 0.9217
+  Exact match accuracy: 0.2418

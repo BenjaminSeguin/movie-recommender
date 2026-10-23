@@ -1,0 +1,9 @@
+data/
+original/
+lightning_logs/
+hin_embeddings_runs/
+walks/
+output.npy
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
