@@ -4,8 +4,6 @@ Predicting missing movie ratings from a sparse user–movie matrix, comparing co
 
 Team project by Barthélémy Charlier, Benjamin Séguin and Marius Henry (M.Sc. IASD, Université PSL, 2025). The full write-up is in [`report.pdf`](report.pdf).
 
-My part was the ALS work: vanilla ALS, the non-negative (ANNLS) and bounded (BNNLS) variants, and their cross-validated hyperparameter search (`als.py`, `functions/`, and the ALS scripts in `experiments/`). HERec and UserReg were implemented by my teammates.
-
 ## Problem
 
 The data is a 610 × 4,980 user–movie rating matrix built from MovieLens (`ml-latest-small`), with ratings from 0.5 to 5 and more than 98% of entries missing. Movie genres and release years are available as side information.
